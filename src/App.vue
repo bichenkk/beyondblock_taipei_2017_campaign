@@ -36,5 +36,30 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Lato);
+$font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
+
+.title {
+  margin: 0 auto;
+  width: 300px;
+  text-align: center;
+}
+
+.title__wording {
+  display: inline-block;
+  font-family: $font-family;
+  font-size: 36px;
+  color: #4A4A4A;
+  letter-spacing: 5px;
+}
+
+.title__icon:before {
+  display: inline-block;
+  content: '';
+  background-image: url('./assets/icon.svg');
+  background-size: 28px 28px;
+  height: 28px;
+  width: 28px;
+}
 </style>

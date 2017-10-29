@@ -1,6 +1,9 @@
 <template>
   <div class="session">
-    {{msg}}
+    <div class="title">
+      <i class="title__icon"></i>
+      <h1 class="title__wording">議程</h1>
+    </div>
   </div>
 </template>
 
@@ -15,5 +18,6 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+
 </style>

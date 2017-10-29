@@ -68,8 +68,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import url(https://fonts.googleapis.com/css?family=Open+Sans|Lato);
-
 $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
 
 .navbar-cover {
