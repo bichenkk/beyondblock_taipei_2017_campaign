@@ -7,7 +7,7 @@
     <Transport/>
     <Sponsor/>
     <Staff/>
-    <Footer/>
+    <Contact/>
   </div>
 </template>
 
@@ -19,7 +19,7 @@ import Session from './components/Session'
 import Transport from './components/Transport'
 import Sponsor from './components/Sponsor'
 import Staff from './components/Staff'
-import Footer from './components/Footer'
+import Contact from './components/Contact'
 
 export default {
   name: 'app',
@@ -31,7 +31,7 @@ export default {
     Transport,
     Sponsor,
     Staff,
-    Footer
+    Contact
   }
 }
 </script>
