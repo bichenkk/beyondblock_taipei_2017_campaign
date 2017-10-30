@@ -1,23 +1,25 @@
 <template>
   <div id="app">
     <div class="mobile-nav">
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mr-auto mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">報名網站</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">議程資訊</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">人員招募</a>
-          </li>
-        </ul>
-      </div>
       <nav class="navbar navbar-toggleable-xs navbar-inverse bg-faded navbar-cover">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">報名網站</a>
+              <hr>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">議程資訊</a>
+              <hr>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">人員招募</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </div>
     <Banner/>
@@ -99,11 +101,24 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
   z-index: 100;
   
   .navbar-collapse {
-    background: transparent;
+    background: rgba(74,74,74,0.90);
   }
 
   .nav-item {
     margin-right: 0px;
+  }
+
+  .nav-item:nth-child(1) {
+    margin-top: 60px;
+  }
+
+  .nav-item:nth-last-child(1) {
+    margin-bottom: 50px;
+  }
+
+  hr {
+    width: 80%;
+    border-top: 1px solid #9B9B9B;
   }
 
   a {
