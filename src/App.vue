@@ -4,6 +4,7 @@
       <nav class="navbar navbar-toggleable-xs navbar-inverse bg-faded navbar-cover">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-angle"><i class="fa fa-angle-up nav-mobile-close" aria-hidden="true"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mr-auto mt-lg-0">
@@ -88,6 +89,23 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
 
 .navbar-toggler {
   margin-top: 10px;
+}
+
+.nav-mobile-close {
+  color: #FFF;
+  display: inline-block;
+  font-size: 25px;
+  padding: 0px 7px;
+  line-height: 1.3em;
+  font-weight: bold;
+}
+
+.navbar-toggler[aria-expanded=true] .navbar-toggler-icon {
+    display: none;
+}
+
+.navbar-toggler[aria-expanded=false] .navbar-toggler-angle {
+    display: none;
 }
 
 .mobile-nav {
