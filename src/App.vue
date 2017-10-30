@@ -199,9 +199,25 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
   letter-spacing: 0;
 }
 
+.cellMarginRight {
+  margin-right: 320px;
+}
+
+.cellMarginLeft {
+  margin-left: 320px;
+}
+
 @media only screen and (max-width: 767px) {
   .paragraph {
     width: 580px;
+  }
+
+  .cellMarginRight {
+    margin-right: 250px;
+  }
+
+  .cellMarginLeft {
+    margin-left: 250px;
   }
 }
 
@@ -215,6 +231,14 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
 
   .paragraph {
     width: 266px;
+  }
+
+  .cellMarginRight {
+    margin-right: 0px;
+  }
+
+  .cellMarginLeft {
+    margin-left: 0px;
   }
 }
 </style>
