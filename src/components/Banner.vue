@@ -50,7 +50,7 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
     left: 50%;
     margin: 0;
     position: absolute;
-    top: 30%;
+    top: 195px;
     transform: translate(-50%, -50%);
   }
 
@@ -63,7 +63,7 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
     left: 50%;
     margin: 0;
     position: absolute;
-    top: 40%;
+    top: 289px;
     transform: translate(-50%, -50%);
   }
 
@@ -74,7 +74,7 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
     left: 50%;
     margin: 0;
     position: absolute;
-    top: 55%;
+    top: 420px;
     transform: translate(-50%, -50%);
 
     a {
@@ -121,34 +121,34 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
 @media only screen and (max-width: 767px) {
   .banner__title {
     width: 486px;
-    top: 30%;
+    top: 158px;
   }
 
   .banner__date {
     width: 486px;
-    top: 50%;
+    top: 315px;
   }
 
   .banner__participate {
-    top: 65%;
+    top: 444px;
   }
 }
 
 @media only screen and (max-width: 575px) {
   .banner__title {
-    top: 35%;
+    top: 230px;
     width: 274px;
     font-size: 36px;
   }
 
   .banner__date {
-    top: 45%;
+    top: 300px;
     width: 274px;
     font-size: 24px;
   }
   
   .banner__participate {
-    top: 55%;
+    top: 380px;
   }
 }
 </style>
