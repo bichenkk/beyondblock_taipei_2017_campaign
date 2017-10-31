@@ -183,23 +183,25 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
 
 @media only screen and (max-width: 575px) {
   .session__box {
-    width: 450px;
+    width: 375px;
     margin: 0 auto;
   }
-
   .session__time {
-    width: 90px;
+    width: 75px;
   }
-
   .session__endtime {
     text-align: right;
     margin-right: 8px;
     display: block;
   }
-
   .session__body {
-    padding-left: 0px; 
-    width: 300px;
+    width: 250px;
+  }
+  .session__speaker h3 {
+    font-size: 18px;
+  }
+  .session__title {
+    font-size: 18px;
   }
 }
 </style>

@@ -63,14 +63,14 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
     letter-spacing: 0;
   }
   &__row {
-    width: 800px;
+    width: 750px;
     margin: 0 auto;
     margin-bottom: 40px;
   }
   &__logo {
     margin: 15px 30px;
     display: inline-block;
-    width: 200px;
+    width: 180px;
     height: 135px;
     border: 1px solid #E1DFE2;
     border-radius: 10px;

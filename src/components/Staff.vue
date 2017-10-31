@@ -53,7 +53,7 @@ export default {
 
 @media only screen and (max-width: 575px) {
   .staff__box {
-    width: 380px;
+    width: 375px;
     padding: 0px;
   }
 

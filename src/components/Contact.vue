@@ -28,6 +28,7 @@ export default {
   color: transparent;
 }
 .contact {
+  width: 100%;
   &__bg {
     height: 120px;
     width: 100%;
@@ -73,7 +74,7 @@ export default {
 
 @media only screen and (max-width: 575px) {
   .contact__box {
-    width: 390px;
+    width: 375px;
     padding-top: 20px;
     margin-bottom: 10px;
   }
@@ -85,11 +86,8 @@ export default {
   .contact__organizer {
     display: block;
     margin: 0 auto;
-    width: 390px;
+    width: 375px;
     text-align: center;
-  }
-  .contact__organizer span {
-    transform: translate(-5px, 0px);
   }
 }
 </style>

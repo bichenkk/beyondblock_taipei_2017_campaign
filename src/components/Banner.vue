@@ -28,14 +28,14 @@ export default {
 $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
 
 .banner {
+  width: 100%;
   background: #9B9B9B;
-
   &__mask:after {
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 0;
     content: '';
     background: linear-gradient(to right top, rgba(132, 233, 167, 0.8), rgba(147, 210, 240, 0.7));
