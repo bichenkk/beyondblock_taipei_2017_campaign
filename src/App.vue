@@ -166,6 +166,7 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
   width: 300px;
   line-height: 143px;
   text-align: center;
+  transform: translate(-20px, 0%);
 }
 
 .title__wording {
