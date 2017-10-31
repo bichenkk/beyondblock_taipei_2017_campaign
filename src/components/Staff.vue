@@ -44,9 +44,17 @@ export default {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .staff__box {
+    width: 590px;
+    padding: 10px;
+  }
+}
+
 @media only screen and (max-width: 575px) {
   .staff__box {
     width: 380px;
+    padding: 0px;
   }
 
   .staff__logo {

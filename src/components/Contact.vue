@@ -11,9 +11,9 @@
         <i class="fa fa-github icon" aria-hidden="true"></i>
       </div>
     </div>
-    <p class="contact__organizer">
-      2017 © Taipei Ethereum Meetup
-    </p>
+    <div class="contact__organizer">
+      <span>2017 © Taipei Ethereum Meetup</span>
+    </div>
   </section>
 </template>
 
@@ -52,14 +52,28 @@ export default {
   &__organizer {
     display: block;
     margin: 0 auto;
-    color: #FFF;
+    width: 600px;
     text-align: center;
+  }
+  &__organizer span {
+    display: block;
+    font-family: NotoSansCJKtc-Regular;
+    font-size: 10px;
+    color: #FFF;
+    letter-spacing: 0.56px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .staff__box {
+    width: 590px;
+    padding: 10px;
   }
 }
 
 @media only screen and (max-width: 575px) {
   .contact__box {
-    width: 380px;
+    width: 390px;
     padding-top: 20px;
     margin-bottom: 10px;
   }
@@ -67,6 +81,15 @@ export default {
     margin: 0 auto;
     margin: 0px 10px;
     width: 100px;
+  }
+  .contact__organizer {
+    display: block;
+    margin: 0 auto;
+    width: 390px;
+    text-align: center;
+  }
+  .contact__organizer span {
+    transform: translate(-5px, 0px);
   }
 }
 </style>
