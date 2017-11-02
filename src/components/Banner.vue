@@ -10,10 +10,10 @@
       <div class="slide slide--3"></div>
     </agile>
 
-    <h1 class="banner__title">Taipei Ethereum Meetup</h1>
-    <h3 class="banner__date">Oct. 27</h3>
+    <h1 class="banner__title">{{$t('bannerTitle')}}</h1>
+    <h3 class="banner__date">{{$t('bannerDate')}}</h3>
     <div class="banner__participate">
-      <a class="banner__btn"><span>由此購票</span></a>
+      <a class="banner__btn"><span>{{$t('bannerBtn')}}</span></a>
     </div>
   </section>
 </template>

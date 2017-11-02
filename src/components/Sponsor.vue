@@ -2,11 +2,11 @@
   <section class="sponsor">
     <div class="title">
       <i class="title__icon"></i>
-      <h1 class="title__wording">贊助商</h1>
+      <h1 class="title__wording">{{$t('sponsorTitle')}}</h1>
     </div>
 
     <div class="sponsor__rank">
-      <h3>Platinum Sponsors</h3>
+      <h3>{{$t('platinumSponsorTitle')}}</h3>
     </div>
 
     <div class="sponsor__box">
@@ -18,7 +18,7 @@
     </div>
 
     <div class="sponsor__rank">
-      <h3>Gold Sponsors</h3>
+      <h3>{{$t('goldSponsorTitle')}}</h3>
     </div>
 
     <div class="sponsor__box">
@@ -30,7 +30,7 @@
     </div>
 
     <div class="sponsor__rank">
-      <h3>Silver Sponsors</h3>
+      <h3>{{$t('silverSponsorTitle')}}</h3>
     </div>
 
     <div class="sponsor__box">

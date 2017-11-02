@@ -2,24 +2,24 @@
   <section class="meetup">
     <div class="title">
       <i class="title__icon"></i>
-      <h1 class="title__wording">關於</h1>
+      <h1 class="title__wording">{{$t('meetupTitle')}}</h1>
     </div>
 
     <div class="paragraph">
-      <p>專注在 Ethereum 技術理論、實作、與應用的討論社群，目前每月由社群參加者自願分享。 Ethereum 是具有智慧契約功能的區塊鏈平台。</p>
+      <p>{{$t('meetupDescription')}}</p>
     </div>
 
     <div class="title">
       <i class="title__icon"></i>
-      <h1 class="title__wording">最新消息</h1>
+      <h1 class="title__wording">{{$t('newsTitle')}}</h1>
     </div>
 
     <div class="paragraph">
-      <p class="text-center">請關注社團，隨時得知最新消息</p>
+      <p class="text-center">{{$t('newsDescription')}}</p>
     </div>
 
     <a class="more" href="https://www.facebook.com/eth.taipei" target="_blank">
-      <span class="more__text">更多</span>
+      <span class="more__text">{{$t('moreBtn')}}</span>
     </a>
   </section>
 </template>

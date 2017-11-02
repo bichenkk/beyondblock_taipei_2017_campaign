@@ -2,7 +2,7 @@
   <div class="speaker">
     <div class="title">
       <i class="title__icon"></i>
-      <h1 class="title__wording">講者</h1>
+      <h1 class="title__wording">{{$t('speakerTitle')}}</h1>
     </div>
     <ul class="speaker__list">
       <li class="speaker__box" v-bind:class="classObject(index)" v-for="(speaker, index) in speakers" v-bind:key="speaker.name + index">
@@ -27,6 +27,9 @@
 </template>
 
 <script>
+import en from '../i18n/en'
+import zh from '../i18n/zh-TW'
+
 export default {
   name: 'speaker',
   methods: {
@@ -69,33 +72,14 @@ export default {
     }
   },
   data () {
-    return {
-      speakers: [
-        {
-          name: 'Vitalik Buterin',
-          title: 'Foundation Creator',
-          image: 'https://crunchbase-production-res.cloudinary.com/image/upload/c_thumb,h_120,w_120,f_jpg,g_faces/v1464855812/k8rbcryttimopgeykww9.png',
-          url: 'https://www.crunchbase.com/person/vitalik-buterin'
-        },
-        {
-          name: 'Karl Floersch',
-          title: 'Foundation Researcher',
-          image: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAUiAAAAJDJiMmRjODlkLWU1OTgtNDA4MC05NGE0LTMyMTBmZmZiMWQzNw.jpg',
-          url: 'https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFdcSXxB1U4lQAAAV9tXRZQKxafQly5DKUTVHR3CnuEFSIaGpXM_8jvtbkTz82GvV-B5jjsXrTV61bQQ2-3BROofIQT1cSvuiuZX1WRAhkdFW2cmC6bkCGUJEuouxz4t1jYbms=&originalReferer=https://github.com/EtherTW/conf2017/issues/6&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fkarlfloersch%2F'
-        },
-        {
-          name: '何斌',
-          title: 'ImToken CEO',
-          image: 'http://img.mp.itc.cn/upload/20170503/2b64b32c730f49e9a2053fd1fa8cfb72_th.jpeg',
-          url: 'https://medium.com/taipei-ethereum-meetup/擁有網路第四大礦池-ethfans-中國以太坊社群這樣經營生態系-f659573c555f'
-        },
-        {
-          name: 'Loi Luu',
-          title: 'Kyber Networks CEO',
-          image: 'http://www.comp.nus.edu.sg/~loiluu/profile.jpg',
-          url: 'https://www.comp.nus.edu.sg/%7Eloiluu/'
-        }
-      ]
+    if (this.$i18n.locale === 'en') {
+      return {
+        speakers: en.speakers
+      }
+    } else {
+      return {
+        speakers: zh.speakers
+      }
     }
   }
 }

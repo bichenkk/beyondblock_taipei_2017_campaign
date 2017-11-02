@@ -2,7 +2,7 @@
   <section class="session">
     <div class="title">
       <i class="title__icon"></i>
-      <h1 class="title__wording">議程</h1>
+      <h1 class="title__wording">{{$t('sessionTitle')}}</h1>
     </div>
 
     <div class="session__box clearfix row" v-for="(session, index) in sessions" v-bind:key="session.time + session.title">
@@ -33,60 +33,20 @@
 </template>
 
 <script>
+import en from '../i18n/en'
+import zh from '../i18n/zh-TW'
+
 export default {
   name: 'session',
   data () {
-    return {
-      sessions: [
-        {
-          start: '10:20',
-          end: '11:00',
-          speaker: 'Loi Luu',
-          title: 'Angular 5 全新功能探索'
-        },
-        {
-          start: '10:20',
-          end: '11:00',
-          speaker: 'Loi Luu',
-          title: 'Angular 5 全新功能探索'
-        },
-        {
-          start: '11:10',
-          end: '11:50',
-          speaker: 'Loi Luu',
-          title: 'Angular 5 全新功能探索'
-        },
-        {
-          start: '11:50',
-          end: '13:30',
-          speaker: '午餐',
-          title: null
-        },
-        {
-          start: '13:30',
-          end: '14:10',
-          speaker: 'Loi Luu',
-          title: 'Angular 5 全新功能探索'
-        },
-        {
-          start: '14:20',
-          end: '15:00',
-          speaker: 'Loi Luu',
-          title: 'Angular 5 全新功能探索'
-        },
-        {
-          start: '15:00',
-          end: '15:50',
-          speaker: 'Loi Luu',
-          title: 'Angular 5 全新功能探索'
-        },
-        {
-          start: '16:00',
-          end: '16:40',
-          speaker: 'Loi Luu',
-          title: 'Angular 5 全新功能探索'
-        }
-      ]
+    if (this.$i18n.locale === 'en') {
+      return {
+        sessions: en.sessions
+      }
+    } else {
+      return {
+        sessions: zh.sessions
+      }
     }
   }
 }

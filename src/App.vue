@@ -9,15 +9,15 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mr-auto mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">報名網站</a>
+              <a class="nav-link" href="#">{{$t('navLink1')}}</a>
               <hr>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">議程資訊</a>
+              <a class="nav-link" href="#">{{$t('navLink2')}}</a>
               <hr>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">人員招募</a>
+              <a class="nav-link" href="#">{{$t('navLink3')}}</a>
             </li>
           </ul>
         </div>
@@ -33,13 +33,13 @@
       <div class="float-right nav-menu">
         <ul class="nav justify-content-end">
           <li class="nav-item">
-            <a class="nav-link" href="#">報名網站</a>
+            <a class="nav-link" href="#">{{$t('navLink1')}}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">議程資訊</a>
+            <a class="nav-link" href="#">{{$t('navLink2')}}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">人員招募</a>
+            <a class="nav-link" href="#">{{$t('navLink3')}}</a>
           </li>
         </ul>
       </div>
