@@ -1,7 +1,7 @@
 export default {
-  bannerTitle: 'Taipei Ethereum Meetup',
-  bannerDate: 'Dec. 25',
-  bannerBtn: '由此購票',
+  bannerTitle: 'BeyondBlock Taipei',
+  bannerDate: 'Nov. 25',
+  bannerBtn: 'Register Now',
 
   navLink1: '報名網站',
   navLink2: '議程資訊',

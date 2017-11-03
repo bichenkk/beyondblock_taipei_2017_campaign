@@ -1,5 +1,5 @@
 export default {
-  bannerTitle: '台北以太坊聚會',
+  bannerTitle: 'BeyondBlock Taipei',
   bannerDate: '11月25日',
   bannerBtn: '由此購票',
 
