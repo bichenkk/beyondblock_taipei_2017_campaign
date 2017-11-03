@@ -18,9 +18,21 @@ export default {
   speakers: [
     {
       name: 'Vitalik Buterin',
-      title: 'Foundation Creator',
+      title: 'Creator of Ethereum',
       image: 'https://crunchbase-production-res.cloudinary.com/image/upload/c_thumb,h_120,w_120,f_jpg,g_faces/v1464855812/k8rbcryttimopgeykww9.png',
       url: 'https://www.crunchbase.com/person/vitalik-buterin'
+    },
+    {
+      name: 'Vlad Zamfir',
+      title: 'Ethereum Research Lead',
+      image: 'https://pbs.twimg.com/profile_images/683736320691298305/jHM6N6FK.png',
+      url: 'https://twitter.com/vladzamfir'
+    },
+    {
+      name: 'Loi Luu',
+      title: 'Kyber Networks CEO',
+      image: 'http://www.comp.nus.edu.sg/~loiluu/profile.jpg',
+      url: 'https://www.comp.nus.edu.sg/%7Eloiluu/'
     },
     {
       name: 'Karl Floersch',
@@ -35,10 +47,10 @@ export default {
       url: 'https://medium.com/taipei-ethereum-meetup/擁有網路第四大礦池-ethfans-中國以太坊社群這樣經營生態系-f659573c555f'
     },
     {
-      name: 'Loi Luu',
-      title: 'Kyber Networks CEO',
-      image: 'http://www.comp.nus.edu.sg/~loiluu/profile.jpg',
-      url: 'https://www.comp.nus.edu.sg/%7Eloiluu/'
+      name: 'Raiden Networks',
+      title: 'Raiden Networks',
+      image: 'https://cdn-images-1.medium.com/max/1200/1*0TL5ON_7R1LOnmCWHCxdoA.png',
+      url: 'https://raiden.network/'
     }
   ],
 
