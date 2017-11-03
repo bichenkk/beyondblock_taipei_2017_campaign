@@ -36,7 +36,7 @@ export default {
     },
     {
       name: 'Karl Floersch',
-      title: 'Foundation Researcher',
+      title: 'Ethereum Researcher',
       image: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAUiAAAAJDJiMmRjODlkLWU1OTgtNDA4MC05NGE0LTMyMTBmZmZiMWQzNw.jpg',
       url: 'https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFdcSXxB1U4lQAAAV9tXRZQKxafQly5DKUTVHR3CnuEFSIaGpXM_8jvtbkTz82GvV-B5jjsXrTV61bQQ2-3BROofIQT1cSvuiuZX1WRAhkdFW2cmC6bkCGUJEuouxz4t1jYbms=&originalReferer=https://github.com/EtherTW/conf2017/issues/6&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fkarlfloersch%2F'
     },
