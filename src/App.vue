@@ -21,9 +21,9 @@
               <hr>
             </li>
             <li class="nav-item">
-              <a class="nav-link inline" href="#" @click="changeLang('zh')">{{$t('zhMobileLang')}}</a>
+              <a class="nav-link inline" href="#" @click="changeLang('zh', true)">{{$t('zhMobileLang')}}</a>
               <span class="divider">/</span>
-              <a class="nav-link inline" href="#" @click="changeLang('en')">{{$t('enMobileLang')}}</a>
+              <a class="nav-link inline" href="#" @click="changeLang('en', true)">{{$t('enMobileLang')}}</a>
             </li>
           </ul>
         </div>
@@ -51,8 +51,8 @@
             <div class="dropdown">
               <a class="dropbtn nav-link" href="#">{{$t('langDropdown')}}</a>
               <div class="dropdown-content">
-                <a style="color: #000" @click="changeLang('zh')">{{$t('zhWording')}}</a>
-                <a style="color: #000" @click="changeLang('en')">{{$t('enWording')}}</a>
+                <a style="color: #000" @click="changeLang('zh', false)">{{$t('zhWording')}}</a>
+                <a style="color: #000" @click="changeLang('en', false)">{{$t('enWording')}}</a>
               </div>
             </div>
           </li>
@@ -93,9 +93,11 @@ export default {
   },
 
   methods: {
-    changeLang (lang) {
+    changeLang (lang, closeMobileNav) {
       this.$i18n.locale = lang
-      this.$refs.mobileNav.click()
+      if (closeMobileNav) {
+        this.$refs.mobileNav.click()
+      }
     },
 
     toggleNav () {
