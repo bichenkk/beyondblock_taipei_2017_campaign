@@ -89,6 +89,10 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
       top: 1px;
     }
 
+    a:hover {
+      background: #43C3A6;
+    }
+
     span {
       display: block;
       line-height: 50px;

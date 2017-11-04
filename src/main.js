@@ -14,7 +14,7 @@ Vue.use(VueAgile)
 Vue.config.productionTip = false
 
 const i18n = new VueI18n({
-  locale: 'en',
+  locale: 'zh',
   messages: {
     'zh': zh,
     'en': en

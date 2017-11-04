@@ -44,6 +44,15 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
   border: 1px solid #50E3C2;
   border-radius: 100px;
 
+  &:hover {
+    background: #50E3C2;
+  }
+
+  &:active {
+    position: relative; 
+    top: 1px;
+  }
+
   &__text {
     display: block;
     font-family: $font-family;
@@ -52,6 +61,10 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
     line-height: 50px;
     color: #50E3C2;
     letter-spacing: 2.22px;
+  }
+
+  &__text:hover {
+    color: #FFF;
   }
 }
 

@@ -3,9 +3,15 @@ export default {
   bannerDate: 'Nov. 25',
   bannerBtn: 'Register Now',
 
-  navLink1: '報名網站',
+  navLink1: '講者資訊',
   navLink2: '議程資訊',
-  navLink3: '人員招募',
+  navLink3: '交通資訊',
+
+  zhMobileLang: '繁體中文',
+  enMobileLang: 'English',
+  langDropdown: 'Language',
+  zhWording: '繁體中文',
+  enWording: 'English',
 
   meetupTitle: '關於',
   meetupDescription: '專注在 Ethereum 技術理論、實作、與應用的討論社群，目前每月由社群參加者自願分享。 Ethereum 是具有智慧契約功能的區塊鏈平台。',

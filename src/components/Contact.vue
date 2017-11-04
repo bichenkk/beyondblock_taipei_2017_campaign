@@ -2,13 +2,13 @@
   <section class="contact contact__bg">
     <div class="contact__box">
       <div class="contact__icon">
-        <i class="fa fa-facebook icon" aria-hidden="true"></i>
+        <a href="https://www.facebook.com/eth.taipei/" target="_blank"><i class="fa fa-facebook icon" aria-hidden="true"></i></a>
       </div>
       <div class="contact__icon">
-        <i class="fa fa-slack icon" aria-hidden="true"></i>
+        <a href="https://www.meetup.com/Taipei-Ethereum-Meetup/" target="_blank"><i class="fa fa-slack icon" aria-hidden="true"></i></a>
       </div>
       <div class="contact__icon">
-        <i class="fa fa-github icon" aria-hidden="true"></i>
+        <a href="https://github.com/EtherTW" target="_blank"><i class="fa fa-github icon" aria-hidden="true"></i></a>
       </div>
     </div>
     <div class="contact__organizer">
@@ -24,9 +24,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.icon-inverse {
-  color: transparent;
+.fa {
+  color: #FFF;
 }
+
 .contact {
   width: 100%;
   &__bg {
@@ -45,6 +46,7 @@ export default {
     line-height: 50px;
     font-size: 40px;
     color: #FFF;
+    cursor: pointer;
   }
   &__box {
     margin: 0 auto;

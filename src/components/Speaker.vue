@@ -8,7 +8,7 @@
       <li class="speaker__box" v-bind:class="classObject(index)" v-for="(speaker, index) in speakers" v-bind:key="speaker.name + index">
         <div class="cell" v-bind:style="directionStyle(index)">
           <div class="cell__icon">
-            <img v-bind:src="speaker.image" style="width: 100%;">
+            <a v-bind:href="speaker.url" target="_blank"><img v-bind:src="speaker.image" style="width: 100%;"></a>
           </div>
           <div class="cell__info" v-bind:style="infoStyle(index)">
             <a class='cell__name' v-bind:href="speaker.url" target="_blank" v-bind:style="infoTextStyle(index)">
