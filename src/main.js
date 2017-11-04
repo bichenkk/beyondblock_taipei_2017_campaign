@@ -13,8 +13,16 @@ Vue.use(VueAgile)
 
 Vue.config.productionTip = false
 
+let userLang = navigator.language || navigator.userLanguage
+let locale = 'en'
+if (userLang === 'zh-TW') {
+  locale = 'zh'
+}
+
+console.log(locale)
+
 const i18n = new VueI18n({
-  locale: 'zh',
+  locale: locale,
   messages: {
     'zh': zh,
     'en': en

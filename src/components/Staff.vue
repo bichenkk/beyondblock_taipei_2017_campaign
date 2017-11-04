@@ -31,7 +31,7 @@ export default {
 .staff {
   &__box {
     margin: 0 auto;
-    width: 600px;
+    width: 560px;
   }
   &__img {
     display: inline-block;
@@ -46,8 +46,8 @@ export default {
 
 @media only screen and (max-width: 767px) {
   .staff__box {
-    width: 590px;
-    padding: 10px;
+    width: 576px;
+    padding: 5px;
   }
 }
 

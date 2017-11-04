@@ -50,12 +50,12 @@ export default {
   }
   &__box {
     margin: 0 auto;
-    width: 600px;
+    width: 560px;
   }
   &__organizer {
     display: block;
     margin: 0 auto;
-    width: 600px;
+    width: 560px;
     text-align: center;
   }
   &__organizer span {
@@ -69,7 +69,6 @@ export default {
 
 @media only screen and (max-width: 767px) {
   .staff__box {
-    width: 590px;
     padding: 10px;
   }
 }

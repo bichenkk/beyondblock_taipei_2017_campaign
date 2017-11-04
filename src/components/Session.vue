@@ -125,16 +125,15 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
 
 @media only screen and (max-width: 767px) {
   .session__box {
-    width: 630px;
+    width: 576px;
     margin: 0 auto;
   }
 
   .session__time {
-    width: 240px;
+    width: 220px;
   }
 
   .session__body {
-    padding-left: 20px; 
     width: 280px;
     overflow: hidden;
     text-overflow: ellipsis;

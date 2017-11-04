@@ -3,9 +3,9 @@ export default {
   bannerDate: 'Nov. 25',
   bannerBtn: 'Register Now',
 
-  navLink1: '講者資訊',
-  navLink2: '議程資訊',
-  navLink3: '交通資訊',
+  navLink1: 'Speaker',
+  navLink2: 'Session',
+  navLink3: 'Transport',
 
   zhMobileLang: '繁體中文',
   enMobileLang: 'English',
@@ -13,14 +13,14 @@ export default {
   zhWording: '繁體中文',
   enWording: 'English',
 
-  meetupTitle: '關於',
+  meetupTitle: 'Intro',
   meetupDescription: '專注在 Ethereum 技術理論、實作、與應用的討論社群，目前每月由社群參加者自願分享。 Ethereum 是具有智慧契約功能的區塊鏈平台。',
 
-  newsTitle: '最新消息',
+  newsTitle: 'News',
   newsDescription: '請關注社團，隨時得知最新消息',
-  moreBtn: '更多',
+  moreBtn: 'More',
 
-  speakerTitle: '講者',
+  speakerTitle: 'Speaker',
   speakers: [
     {
       name: 'Vitalik Buterin',
@@ -60,7 +60,7 @@ export default {
     }
   ],
 
-  sessionTitle: '議程',
+  sessionTitle: 'Session',
   sessions: [
     {
       start: '10:20',
@@ -112,12 +112,12 @@ export default {
     }
   ],
 
-  transportTitle: '交通資訊',
+  transportTitle: 'Transport',
 
-  sponsorTitle: '贊助商',
+  sponsorTitle: 'Sponsor',
   platinumSponsorTitle: 'Platinum Sponsors',
   goldSponsorTitle: 'Gold Sponsors',
   silverSponsorTitle: 'Silver Sponsors',
 
-  staffTitle: '工作人員'
+  staffTitle: 'Staff'
 }

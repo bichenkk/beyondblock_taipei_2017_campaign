@@ -63,7 +63,7 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
     letter-spacing: 0;
   }
   &__row {
-    width: 750px;
+    width: 735px;
     margin: 0 auto;
     margin-bottom: 40px;
   }
@@ -79,17 +79,19 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
 
 @media only screen and (max-width: 767px) {
   .sponsor {
+    &__box {
+      margin: 0 auto;
+      width: 565px;
+    }
     &__row {
-      width: 610px;
+      width: 565px;
       margin: 0 auto;
       margin-bottom: 40px;
     }
     &__logo {
       display: inline-block;
-      margin: 0 auto;
-      margin-top: 30px;
-      margin-bottom: 30px;
-      width: 200px;
+      margin: 30px 0px;
+      width: 185px;
       height: 135px;
       border: 1px solid #E1DFE2;
       border-radius: 10px;
@@ -99,6 +101,10 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
 
 @media only screen and (max-width: 575px) {
   .sponsor {
+    &__box {
+      margin: 0 auto;
+      width: 100%;
+    }
     &__row {
       width: 100%;
       margin: 0 auto;

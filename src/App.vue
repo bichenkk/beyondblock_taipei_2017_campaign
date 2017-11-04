@@ -147,7 +147,7 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
 }
 
 .logo {
-  margin-left: 15px;
+  margin-left: 40px;
 }
 
 .nav-menu a {
@@ -155,8 +155,8 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
 }
 
 .nav-item {
-  margin-right: 32px;
-  width: 96px;
+  margin-right: 20px;
+  width: 100px;
 }
 
 .mobile-nav {
@@ -283,7 +283,7 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
 
 @media only screen and (max-width: 767px) {
   .paragraph {
-    width: 580px;
+    width: 550px;
   }
 
   .cellMarginRight {
