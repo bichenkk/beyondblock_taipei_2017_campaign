@@ -27,7 +27,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-$font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
+$font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Arial;
 
 .banner {
   width: 100%;
@@ -144,13 +144,13 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
   .banner__title {
     top: 230px;
     width: 274px;
-    font-size: 36px;
+    font-size: 40px;
   }
 
   .banner__date {
-    top: 300px;
+    top: 350px;
     width: 274px;
-    font-size: 24px;
+    font-size: 30px;
   }
   
   .banner__participate {

@@ -57,7 +57,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-$font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
+$font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Arial;
 
 .sponsor {
   &__rank {

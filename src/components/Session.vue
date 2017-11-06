@@ -53,7 +53,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-$font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
+$font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Arial;
 
 .time {
   text-align: right;
@@ -130,11 +130,11 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
   }
 
   .session__time {
-    width: 220px;
+    width: 180px;
   }
 
   .session__body {
-    width: 280px;
+    width: 300px;
     overflow: hidden;
     text-overflow: ellipsis;
   }
