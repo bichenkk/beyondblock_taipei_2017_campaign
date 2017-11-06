@@ -36,7 +36,7 @@ export default {
     },
     {
       name: 'Loi Luu',
-      title: 'Kyber Networks CEO',
+      title: 'Kyber Network CEO',
       image: 'http://www.comp.nus.edu.sg/~loiluu/profile.jpg',
       url: 'https://www.comp.nus.edu.sg/%7Eloiluu/'
     },
@@ -53,8 +53,8 @@ export default {
       url: 'https://medium.com/taipei-ethereum-meetup/擁有網路第四大礦池-ethfans-中國以太坊社群這樣經營生態系-f659573c555f'
     },
     {
-      name: 'Raiden Networks',
-      title: 'Raiden Networks',
+      name: 'Raiden Network',
+      title: 'Raiden Network',
       image: 'https://cdn-images-1.medium.com/max/1200/1*0TL5ON_7R1LOnmCWHCxdoA.png',
       url: 'https://raiden.network/'
     }

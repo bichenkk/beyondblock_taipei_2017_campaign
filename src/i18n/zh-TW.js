@@ -36,7 +36,7 @@ export default {
     },
     {
       name: 'Loi Luu',
-      title: 'Kyber Networks CEO',
+      title: 'Kyber Network CEO',
       image: 'https://www.comp.nus.edu.sg/~loiluu/profile.jpg',
       url: 'https://www.comp.nus.edu.sg/%7Eloiluu/'
     },
