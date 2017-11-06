@@ -5,18 +5,24 @@
       <h1 class="title__wording">{{$t('sponsorTitle')}}</h1>
     </div>
 
+    <!--
     <div class="sponsor__rank">
       <h3>{{$t('platinumSponsorTitle')}}</h3>
     </div>
+    -->
 
     <div class="sponsor__box">
       <div class="sponsor__row">
-        <div class="sponsor__logo"></div>
-        <div class="sponsor__logo"></div>
-        <div class="sponsor__logo"></div>
+        <div class="sponsor__logo">
+        </div>
+        <div class="sponsor__logo">
+        </div>
+        <div class="sponsor__logo">
+        </div>
       </div>
     </div>
 
+    <!--
     <div class="sponsor__rank">
       <h3>{{$t('goldSponsorTitle')}}</h3>
     </div>
@@ -40,6 +46,7 @@
         <div class="sponsor__logo"></div>
       </div>
     </div>
+    -->
   </section>
 </template>
 
@@ -74,6 +81,10 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
     height: 135px;
     border: 1px solid #E1DFE2;
     border-radius: 10px;
+
+    img {
+        width: 100%;
+    }
   }
 }
 
@@ -95,6 +106,10 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
       height: 135px;
       border: 1px solid #E1DFE2;
       border-radius: 10px;
+
+      img {
+        width: 100%;
+      }
     }
   }
 }
@@ -119,6 +134,10 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
       height: 135px;
       border: 1px solid #E1DFE2;
       border-radius: 10px;
+
+      img {
+        width: 100%;
+      }
     }
   }
 }

@@ -37,7 +37,7 @@ export default {
     {
       name: 'Loi Luu',
       title: 'Kyber Networks CEO',
-      image: 'http://www.comp.nus.edu.sg/~loiluu/profile.jpg',
+      image: 'https://www.comp.nus.edu.sg/~loiluu/profile.jpg',
       url: 'https://www.comp.nus.edu.sg/%7Eloiluu/'
     },
     {
@@ -49,7 +49,7 @@ export default {
     {
       name: '何斌',
       title: 'ImToken CEO',
-      image: 'http://img.mp.itc.cn/upload/20170503/2b64b32c730f49e9a2053fd1fa8cfb72_th.jpeg',
+      image: 'https://img.mp.itc.cn/upload/20170503/2b64b32c730f49e9a2053fd1fa8cfb72_th.jpeg',
       url: 'https://medium.com/taipei-ethereum-meetup/擁有網路第四大礦池-ethfans-中國以太坊社群這樣經營生態系-f659573c555f'
     },
     {

@@ -12,9 +12,11 @@
 
     <h1 class="banner__title">{{$t('bannerTitle')}}</h1>
     <h3 class="banner__date">{{$t('bannerDate')}}</h3>
+    <!--
     <div class="banner__participate">
       <a class="banner__btn"><span>{{$t('bannerBtn')}}</span></a>
     </div>
+    -->
   </section>
 </template>
 
