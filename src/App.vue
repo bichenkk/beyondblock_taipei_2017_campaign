@@ -63,10 +63,8 @@
     <Speaker id="speaker"/>
     <Session id="session"/>
     <Transport id="transport"/>
-    <!--
     <Sponsor/>
     <Staff/>
-    -->
     <Contact/>
   </div>
 </template>
@@ -110,7 +108,12 @@ export default {
 </script>
 
 <style lang="scss">
-$font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
+$font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Arial;
+
+#app {
+  overflow-x: hidden;
+}
+
 .inline {
   display: inline-block;
 }
@@ -161,6 +164,10 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
 .nav-item {
   margin-right: 20px;
   width: 100px;
+}
+
+.nav-item:nth-last-child(1) {
+  margin-right: 10px;
 }
 
 .mobile-nav {
@@ -287,7 +294,7 @@ $font-family: 'Open+Sans', 'Lato', sans-serif, Helvetica, Arial;
 
 @media only screen and (max-width: 767px) {
   .paragraph {
-    width: 550px;
+    width: 500px;
   }
 
   .cellMarginRight {
