@@ -48,11 +48,11 @@ export default {
     lineStyle: function (index) {
       if (index % 2 === 0) {
         return {
-          'margin-left': '-11px'
+          'margin-left': '-20px'
         }
       }
       return {
-        'margin-right': '-11px'
+        'margin-right': '-20px'
       }
     },
     infoStyle: function (index) {
@@ -106,7 +106,7 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
     color: #4A4A4A;
     letter-spacing: 0;
     display: inline-block;
-    width: 200px;
+    width: 180px;
     overflow-wrap: break-word;
   }
 }
