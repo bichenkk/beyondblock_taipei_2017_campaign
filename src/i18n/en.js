@@ -69,52 +69,94 @@ export default {
   sessionTitle: 'Session',
   sessions: [
     {
-      start: '10:20',
-      end: '11:00',
-      speaker: 'Loi Luu',
-      title: 'Angular 5 全新功能探索'
+      start: '09:00',
+      end: '09:30',
+      speaker: '報到',
+      title: null
     },
     {
-      start: '10:20',
-      end: '11:00',
-      speaker: 'Loi Luu',
-      title: 'Angular 5 全新功能探索'
+      start: '09:30',
+      end: '09:40',
+      speaker: '開場',
+      title: null
+    },
+    {
+      start: '09:40',
+      end: '10:10',
+      speaker: 'Lane Rettig',
+      title: 'Blockchain in NYC'
+    },
+    {
+      start: '10:10',
+      end: '11:10',
+      speaker: 'Karl Floersch',
+      title: 'Smart Contract Tutorial'
     },
     {
       start: '11:10',
-      end: '11:50',
-      speaker: 'Loi Luu',
-      title: 'Angular 5 全新功能探索'
+      end: '11:30',
+      speaker: '休息',
+      title: null
     },
     {
-      start: '11:50',
+      start: '11:30',
+      end: '12:00',
+      speaker: '何斌',
+      title: 'ImToken 2.0'
+    },
+    {
+      start: '12:00',
       end: '13:30',
       speaker: '午餐',
       title: null
     },
     {
       start: '13:30',
-      end: '14:10',
-      speaker: 'Loi Luu',
-      title: 'Angular 5 全新功能探索'
+      end: '14:00',
+      speaker: 'Raiden Network',
+      title: 'Trustlines Network'
     },
     {
-      start: '14:20',
-      end: '15:00',
+      start: '14:00',
+      end: '14:30',
       speaker: 'Loi Luu',
-      title: 'Angular 5 全新功能探索'
+      title: 'Kyber Network'
+    },
+    {
+      start: '14:30',
+      end: '15:00',
+      speaker: '贊助夥伴介紹',
+      title: null
     },
     {
       start: '15:00',
-      end: '15:50',
-      speaker: 'Loi Luu',
-      title: 'Angular 5 全新功能探索'
+      end: '15:30',
+      speaker: '休息',
+      title: null
+    },
+    {
+      start: '15:30',
+      end: '16:00',
+      speaker: 'Vlad Zamfir',
+      title: 'Blockchain Governance'
     },
     {
       start: '16:00',
-      end: '16:40',
-      speaker: 'Loi Luu',
-      title: 'Angular 5 全新功能探索'
+      end: '16:30',
+      speaker: 'Vitalik Buterin',
+      title: 'Ethereum 2.0'
+    },
+    {
+      start: '16:30',
+      end: '16:50',
+      speaker: '問答',
+      title: null
+    },
+    {
+      start: '16:50',
+      end: '17:00',
+      speaker: '合影',
+      title: null
     }
   ],
 
