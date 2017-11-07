@@ -298,11 +298,11 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
   }
 
   .cellMarginRight {
-    margin-right: 250px;
+    margin-right: 200px;
   }
 
   .cellMarginLeft {
-    margin-left: 250px;
+    margin-left: 200px;
   }
 }
 
