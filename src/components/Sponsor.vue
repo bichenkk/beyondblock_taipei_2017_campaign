@@ -14,10 +14,7 @@
     <div class="sponsor__box">
       <div class="sponsor__row">
         <div class="sponsor__logo">
-        </div>
-        <div class="sponsor__logo">
-        </div>
-        <div class="sponsor__logo">
+          <img src="../assets/sponsor_ifc.png">
         </div>
       </div>
     </div>
@@ -79,7 +76,7 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
     display: inline-block;
     width: 180px;
     height: 135px;
-    border: 1px solid #E1DFE2;
+    /* border: 1px solid #E1DFE2; */
     border-radius: 10px;
 
     img {
@@ -104,7 +101,7 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
       margin: 30px 0px;
       width: 185px;
       height: 135px;
-      border: 1px solid #E1DFE2;
+      /* border: 1px solid #E1DFE2; */
       border-radius: 10px;
 
       img {
@@ -132,7 +129,7 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
       margin-bottom: 30px;
       width: 266px;
       height: 135px;
-      border: 1px solid #E1DFE2;
+      /* border: 1px solid #E1DFE2; */
       border-radius: 10px;
 
       img {

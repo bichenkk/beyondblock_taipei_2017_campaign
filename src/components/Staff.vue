@@ -6,15 +6,21 @@
     </div>
 
     <div class="staff__box">
-      <div class="staff__img"></div>
-      <div class="staff__img"></div>
-      <div class="staff__img"></div>
-      <div class="staff__img"></div>
-      <div class="staff__img staff__logo"></div>
-      <div class="staff__img"></div>
-      <div class="staff__img"></div>
-      <div class="staff__img"></div>
-      <div class="staff__img"></div>
+      <div class="staff__img">
+        <img src="../assets/staff_juinc.jpg">
+      </div>
+      <div class="staff__img">
+        <img src="../assets/staff_yurenju.jpg">
+      </div>
+      <div class="staff__img">
+        <img src="../assets/staff_ben.jpg">
+      </div>
+      <div class="staff__img">
+        <img src="../assets/staff_paul.jpg">
+      </div>
+      <div class="staff__img">
+        <img src="../assets/staff_ken.png">
+      </div>
     </div>
 
     </div>
@@ -40,7 +46,12 @@ export default {
     width: 135px;
     background: #D8D8D8;
     border: 3px solid #50E3C2;
-    border-radius: 50%; 
+    border-radius: 50%;
+
+    img {
+      border-radius: 50%;
+      width: 100%;
+    }
   }
 }
 
