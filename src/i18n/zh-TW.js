@@ -26,7 +26,7 @@ export default {
       name: 'Vitalik Buterin',
       title: 'Creator of Ethereum',
       image: 'https://crunchbase-production-res.cloudinary.com/image/upload/c_thumb,h_120,w_120,f_jpg,g_faces/v1464855812/k8rbcryttimopgeykww9.png',
-      url: 'https://www.crunchbase.com/person/vitalik-buterin'
+      url: 'http://vitalik.ca'
     },
     {
       name: 'Vlad Zamfir',
@@ -44,7 +44,7 @@ export default {
       name: 'Karl Floersch',
       title: 'Ethereum Researcher',
       image: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAUiAAAAJDJiMmRjODlkLWU1OTgtNDA4MC05NGE0LTMyMTBmZmZiMWQzNw.jpg',
-      url: 'https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFdcSXxB1U4lQAAAV9tXRZQKxafQly5DKUTVHR3CnuEFSIaGpXM_8jvtbkTz82GvV-B5jjsXrTV61bQQ2-3BROofIQT1cSvuiuZX1WRAhkdFW2cmC6bkCGUJEuouxz4t1jYbms=&originalReferer=https://github.com/EtherTW/conf2017/issues/6&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fkarlfloersch%2F'
+      url: 'https://karl.tech'
     },
     {
       name: '何斌',
@@ -53,17 +53,17 @@ export default {
       url: 'https://medium.com/taipei-ethereum-meetup/擁有網路第四大礦池-ethfans-中國以太坊社群這樣經營生態系-f659573c555f'
     },
     {
-      name: 'Raiden Network',
-      title: 'Raiden Network',
-      image: 'https://cdn-images-1.medium.com/max/1200/1*0TL5ON_7R1LOnmCWHCxdoA.png',
-      url: 'https://raiden.network/'
-    },
-    {
       name: 'Lane Rettig',
       title: 'Founder of CryptoNYC',
       image: 'https://media.licdn.com/media/p/2/005/05d/08a/2722897.jpg',
       url: 'https://www.linkedin.com/in/lanerettig/'
-    }
+    },
+    {
+      name: 'Raiden Network',
+      title: 'Fast, cheap, scalable token transfers for Ethereum',
+      image: 'https://cdn-images-1.medium.com/max/1200/1*0TL5ON_7R1LOnmCWHCxdoA.png',
+      url: 'https://raiden.network/'
+    },
   ],
 
   sessionTitle: '議程',

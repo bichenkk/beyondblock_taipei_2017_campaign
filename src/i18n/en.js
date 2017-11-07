@@ -26,7 +26,7 @@ export default {
       name: 'Vitalik Buterin',
       title: 'Creator of Ethereum',
       image: 'https://crunchbase-production-res.cloudinary.com/image/upload/c_thumb,h_120,w_120,f_jpg,g_faces/v1464855812/k8rbcryttimopgeykww9.png',
-      url: 'https://www.crunchbase.com/person/vitalik-buterin'
+      url: 'http://vitalik.ca'
     },
     {
       name: 'Vlad Zamfir',
@@ -44,17 +44,23 @@ export default {
       name: 'Karl Floersch',
       title: 'Ethereum Researcher',
       image: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAUiAAAAJDJiMmRjODlkLWU1OTgtNDA4MC05NGE0LTMyMTBmZmZiMWQzNw.jpg',
-      url: 'https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFdcSXxB1U4lQAAAV9tXRZQKxafQly5DKUTVHR3CnuEFSIaGpXM_8jvtbkTz82GvV-B5jjsXrTV61bQQ2-3BROofIQT1cSvuiuZX1WRAhkdFW2cmC6bkCGUJEuouxz4t1jYbms=&originalReferer=https://github.com/EtherTW/conf2017/issues/6&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fkarlfloersch%2F'
+      url: 'https://karl.tech'
     },
     {
       name: '何斌',
       title: 'ImToken CEO',
       image: 'http://img.mp.itc.cn/upload/20170503/2b64b32c730f49e9a2053fd1fa8cfb72_th.jpeg',
-      url: 'https://medium.com/taipei-ethereum-meetup/擁有網路第四大礦池-ethfans-中國以太坊社群這樣經營生態系-f659573c555f'
+      url: 'https://token.im'
+    },
+    {
+      name: 'Lane Rettig',
+      title: 'Founder of CryptoNYC',
+      image: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/2/005/05d/08a/2722897.jpg',
+      url: 'https://twitter.com/lrettig'
     },
     {
       name: 'Raiden Network',
-      title: 'Raiden Network',
+      title: 'Fast, cheap, scalable token transfers for Ethereum',
       image: 'https://cdn-images-1.medium.com/max/1200/1*0TL5ON_7R1LOnmCWHCxdoA.png',
       url: 'https://raiden.network/'
     }
@@ -63,52 +69,94 @@ export default {
   sessionTitle: 'Session',
   sessions: [
     {
-      start: '10:20',
-      end: '11:00',
-      speaker: 'Loi Luu',
-      title: 'Angular 5 全新功能探索'
+      start: '09:00',
+      end: '09:30',
+      speaker: '報到',
+      title: null
     },
     {
-      start: '10:20',
-      end: '11:00',
-      speaker: 'Loi Luu',
-      title: 'Angular 5 全新功能探索'
+      start: '09:30',
+      end: '09:40',
+      speaker: '開場',
+      title: null
+    },
+    {
+      start: '09:40',
+      end: '10:10',
+      speaker: 'Lane Rettig',
+      title: 'Blockchain in NYC'
+    },
+    {
+      start: '10:10',
+      end: '11:10',
+      speaker: 'Karl Floersch',
+      title: 'Smart Contract Tutorial'
     },
     {
       start: '11:10',
-      end: '11:50',
-      speaker: 'Loi Luu',
-      title: 'Angular 5 全新功能探索'
+      end: '11:30',
+      speaker: '休息',
+      title: null
     },
     {
-      start: '11:50',
+      start: '11:30',
+      end: '12:00',
+      speaker: '何斌',
+      title: 'ImToken 2.0'
+    },
+    {
+      start: '12:00',
       end: '13:30',
       speaker: '午餐',
       title: null
     },
     {
       start: '13:30',
-      end: '14:10',
-      speaker: 'Loi Luu',
-      title: 'Angular 5 全新功能探索'
+      end: '14:00',
+      speaker: 'Raiden Network',
+      title: 'Trustlines Network'
     },
     {
-      start: '14:20',
-      end: '15:00',
+      start: '14:00',
+      end: '14:30',
       speaker: 'Loi Luu',
-      title: 'Angular 5 全新功能探索'
+      title: 'Kyber Network'
+    },
+    {
+      start: '14:30',
+      end: '15:00',
+      speaker: '贊助夥伴介紹',
+      title: null
     },
     {
       start: '15:00',
-      end: '15:50',
-      speaker: 'Loi Luu',
-      title: 'Angular 5 全新功能探索'
+      end: '15:30',
+      speaker: '休息',
+      title: null
+    },
+    {
+      start: '15:30',
+      end: '16:00',
+      speaker: 'Vlad Zamfir',
+      title: 'Blockchain Governance'
     },
     {
       start: '16:00',
-      end: '16:40',
-      speaker: 'Loi Luu',
-      title: 'Angular 5 全新功能探索'
+      end: '16:30',
+      speaker: 'Vitalik Buterin',
+      title: 'Ethereum 2.0'
+    },
+    {
+      start: '16:30',
+      end: '16:50',
+      speaker: '問答',
+      title: null
+    },
+    {
+      start: '16:50',
+      end: '17:00',
+      speaker: '合影',
+      title: null
     }
   ],
 
