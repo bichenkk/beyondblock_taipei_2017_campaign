@@ -16,6 +16,9 @@
         <div class="sponsor__logo">
           <img src="../assets/sponsor_ifc.png">
         </div>
+        <div class="sponsor__logo">
+          <img src="../assets/sponsor_cobinhood.png">
+        </div>
       </div>
     </div>
 
