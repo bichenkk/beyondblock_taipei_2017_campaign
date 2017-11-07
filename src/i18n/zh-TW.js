@@ -162,10 +162,10 @@ export default {
 
   transportTitle: '交通資訊',
 
-  sponsorTitle: '贊助商',
+  sponsorTitle: '贊助夥伴',
   platinumSponsorTitle: 'Platinum Sponsors',
   goldSponsorTitle: 'Gold Sponsors',
   silverSponsorTitle: 'Silver Sponsors',
 
-  staffTitle: '工作人員'
+  staffTitle: '籌備團隊'
 }
