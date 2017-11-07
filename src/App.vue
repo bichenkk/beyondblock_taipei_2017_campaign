@@ -63,8 +63,10 @@
     <Speaker id="speaker"/>
     <Session id="session"/>
     <Transport id="transport"/>
+    <!--
     <Sponsor/>
     <Staff/>
+    -->
     <Contact/>
   </div>
 </template>

@@ -14,7 +14,7 @@ export default {
   enWording: 'English',
 
   meetupTitle: '關於',
-  meetupDescription: '專注在 Ethereum 技術理論、實作、與應用的討論社群，目前每月由社群參加者自願分享。 Ethereum 是具有智慧契約功能的區塊鏈平台。',
+  meetupDescription: 'Taipei Ethereum Meetup 是專注在 Ethereum 技術理論、實作與應用的討論社群。',
 
   newsTitle: '最新消息',
   newsDescription: '請關注社團，隨時得知最新消息',
