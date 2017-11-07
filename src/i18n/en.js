@@ -14,10 +14,10 @@ export default {
   enWording: 'English',
 
   meetupTitle: 'Intro',
-  meetupDescription: '專注在 Ethereum 技術理論、實作、與應用的討論社群，目前每月由社群參加者自願分享。 Ethereum 是具有智慧契約功能的區塊鏈平台。',
+  meetupDescription: 'Taipei Ethereum Meetup is an active community focusing on technical issues of Ethereum and other blockchain applications. Every month we have a meetup where volunteer speakers can share.',
 
   newsTitle: 'News',
-  newsDescription: '請關注社團，隨時得知最新消息',
+  newsDescription: 'Join our facebook group to get the latest news',
   moreBtn: 'More',
 
   speakerTitle: 'Speaker',
@@ -47,7 +47,7 @@ export default {
       url: 'https://karl.tech'
     },
     {
-      name: '何斌',
+      name: 'Ben Ho',
       title: 'ImToken CEO',
       image: 'http://img.mp.itc.cn/upload/20170503/2b64b32c730f49e9a2053fd1fa8cfb72_th.jpeg',
       url: 'https://token.im'
@@ -71,13 +71,13 @@ export default {
     {
       start: '09:00',
       end: '09:30',
-      speaker: '報到',
+      speaker: 'Registration',
       title: null
     },
     {
       start: '09:30',
       end: '09:40',
-      speaker: '開場',
+      speaker: 'Opening',
       title: null
     },
     {
@@ -95,19 +95,19 @@ export default {
     {
       start: '11:10',
       end: '11:30',
-      speaker: '休息',
+      speaker: 'Break',
       title: null
     },
     {
       start: '11:30',
       end: '12:00',
-      speaker: '何斌',
+      speaker: 'Ben Ho',
       title: 'ImToken 2.0'
     },
     {
       start: '12:00',
       end: '13:30',
-      speaker: '午餐',
+      speaker: 'Lunch',
       title: null
     },
     {
@@ -125,13 +125,13 @@ export default {
     {
       start: '14:30',
       end: '15:00',
-      speaker: '贊助夥伴介紹',
+      speaker: 'Our Sponsors',
       title: null
     },
     {
       start: '15:00',
       end: '15:30',
-      speaker: '休息',
+      speaker: 'Break',
       title: null
     },
     {
@@ -149,13 +149,13 @@ export default {
     {
       start: '16:30',
       end: '16:50',
-      speaker: '問答',
+      speaker: 'Q & A',
       title: null
     },
     {
       start: '16:50',
       end: '17:00',
-      speaker: '合影',
+      speaker: 'Group Photo',
       title: null
     }
   ],

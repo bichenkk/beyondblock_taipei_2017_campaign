@@ -63,7 +63,7 @@ export default {
       title: 'Fast, cheap, scalable token transfers for Ethereum',
       image: 'https://cdn-images-1.medium.com/max/1200/1*0TL5ON_7R1LOnmCWHCxdoA.png',
       url: 'https://raiden.network/'
-    },
+    }
   ],
 
   sessionTitle: '議程',
