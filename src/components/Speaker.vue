@@ -48,11 +48,11 @@ export default {
     lineStyle: function (index) {
       if (index % 2 === 0) {
         return {
-          'margin-left': '-20px'
+          'margin-left': '-15px'
         }
       }
       return {
-        'margin-right': '-20px'
+        'margin-right': '-15px'
       }
     },
     infoStyle: function (index) {
@@ -96,13 +96,13 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
   }
   &__name {
     font-family: $font-family;
-    font-size: 24px;
+    font-size: 20px;
     color: #4A4A4A;
     letter-spacing: 0;
   }
   &__title {
     font-family: $font-family;
-    font-size: 16px;
+    font-size: 14px;
     color: #4A4A4A;
     letter-spacing: 0;
     display: inline-block;
@@ -156,6 +156,12 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
 
 .speaker__box:nth-last-child(1) .cell__title {
   margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  .speaker__box {
+    margin-bottom: 40px;
+  }
 }
 
 @media only screen and (max-width: 575px) {
