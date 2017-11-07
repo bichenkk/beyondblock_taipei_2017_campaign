@@ -159,6 +159,9 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
   .session__speaker h3 {
     font-size: 18px;
   }
+  .session__speaker--none h3 {
+    font-size: 18px;
+  }
   .session__title {
     font-size: 18px;
   }
