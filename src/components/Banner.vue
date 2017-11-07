@@ -114,13 +114,13 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
   }
   height: 557px;
   &--1 {
-    background-image: url(../assets/banner1.png);
+    background-image: url(../assets/banner1.jpg);
   }
   &--2 {
-    background-image: url(../assets/banner2.png);
+    background-image: url(../assets/banner2.jpg);
   }
   &--3 {
-    background-image: url(../assets/banner3.png);
+    background-image: url(../assets/banner3.jpg);
   }
 }
 

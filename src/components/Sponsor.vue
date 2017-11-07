@@ -14,10 +14,10 @@
     <div class="sponsor__box">
       <div class="sponsor__row">
         <div class="sponsor__logo">
-          <img src="../assets/sponsor_ifc.png">
+          <img src="../assets/sponsor_ifc.jpg">
         </div>
         <div class="sponsor__logo">
-          <img src="../assets/sponsor_cobinhood.png">
+          <img src="../assets/sponsor_cobinhood.jpg">
         </div>
       </div>
     </div>

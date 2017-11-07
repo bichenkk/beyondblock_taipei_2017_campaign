@@ -8,7 +8,7 @@
       <li class="speaker__box" v-bind:class="classObject(index)" v-for="(speaker, index) in speakers" v-bind:key="speaker.name + index">
         <div class="cell" v-bind:style="directionStyle(index)">
           <div class="cell__icon">
-            <a v-bind:href="speaker.url" target="_blank"><img v-bind:src="speaker.image" style="width: 100%;"></a>
+            <a v-bind:href="speaker.url" target="_blank"><img :src="speaker.image" style="width: 100%;"></a>
           </div>
           <div class="cell__info" v-bind:style="infoStyle(index)">
             <a class='cell__name' v-bind:href="speaker.url" target="_blank" v-bind:style="infoTextStyle(index)">
@@ -105,6 +105,9 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
     font-size: 16px;
     color: #4A4A4A;
     letter-spacing: 0;
+    display: inline-block;
+    width: 200px;
+    overflow-wrap: break-word;
   }
 }
 
@@ -149,6 +152,10 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
   &__name {
     color: #50E3C2
   }
+}
+
+.speaker__box:nth-last-child(1) .cell__title {
+  margin-bottom: 0px;
 }
 
 @media only screen and (max-width: 575px) {

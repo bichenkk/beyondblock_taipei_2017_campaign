@@ -8,18 +8,23 @@
     <div class="staff__box">
       <div class="staff__img">
         <img src="../assets/staff_juinc.jpg">
+        <span>juinc - 總召</span>
       </div>
       <div class="staff__img">
         <img src="../assets/staff_yurenju.jpg">
+        <span>yurenju - 行銷</span>
       </div>
       <div class="staff__img">
         <img src="../assets/staff_ben.jpg">
+        <span>Ben - 網站</span>
       </div>
       <div class="staff__img">
         <img src="../assets/staff_paul.jpg">
+        <span>paul - 場務</span>
       </div>
       <div class="staff__img">
-        <img src="../assets/staff_ken.png">
+        <img src="../assets/staff_ken.jpg">
+        <span>Ken - 場務</span>
       </div>
     </div>
 
@@ -47,10 +52,33 @@ export default {
     background: #D8D8D8;
     border: 3px solid #50E3C2;
     border-radius: 50%;
+    position: relative;
 
     img {
       border-radius: 50%;
       width: 100%;
+    }
+
+    span {
+      display: block;
+      border-radius: 50%;
+      background: #000;
+      opacity: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      z-index: 100;
+      color: #FFF;
+      text-align: center;
+      line-height: 129px;
+      transition: 0.5s;
+    }
+
+    span:hover {
+      opacity: 0.7;
     }
   }
 }
