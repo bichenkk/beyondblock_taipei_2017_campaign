@@ -3,9 +3,9 @@ export default {
   bannerDate: 'Nov. 25',
   bannerBtn: 'Register Now',
 
-  navLink1: 'Speaker',
-  navLink2: 'Session',
-  navLink3: 'Transport',
+  navLink1: 'Speakers',
+  navLink2: 'Program',
+  navLink3: 'Travel',
 
   zhMobileLang: '繁體中文',
   enMobileLang: 'English',
@@ -60,7 +60,7 @@ export default {
     }
   ],
 
-  sessionTitle: 'Session',
+  sessionTitle: 'Program',
   sessions: [
     {
       start: '09:00',
@@ -154,12 +154,12 @@ export default {
     }
   ],
 
-  transportTitle: 'Travel Information',
+  transportTitle: 'Travel Info',
 
   sponsorTitle: 'Sponsors',
-  platinumSponsorTitle: 'Platinum Patron',
-  goldSponsorTitle: 'Gold Patrons',
-  silverSponsorTitle: 'Silver Patrons',
+  platinumSponsorTitle: 'Platinum Sponsor',
+  goldSponsorTitle: 'Gold Sponsor',
+  silverSponsorTitle: 'Silver Sponsor',
 
   staffTitle: 'Staff'
 }
