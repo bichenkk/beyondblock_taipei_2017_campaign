@@ -17,22 +17,16 @@ export default {
   meetupDescription: 'Taipei Ethereum Meetup is an active community focusing on technical issues of Ethereum and other blockchain applications. Every month we have a meetup where volunteer speakers can share.',
 
   newsTitle: 'News',
-  newsDescription: 'Join our facebook group to get the latest news',
+  newsDescription: 'Join our Facebook group to get the latest news',
   moreBtn: 'More',
 
-  speakerTitle: 'Speaker',
+  speakerTitle: 'Speakers',
   speakers: [
     {
       name: 'Vitalik Buterin',
-      title: 'Creator of Ethereum',
+      title: 'Founder and Chief Scientist of Ethereum',
       image: 'https://crunchbase-production-res.cloudinary.com/image/upload/c_thumb,h_120,w_120,f_jpg,g_faces/v1464855812/k8rbcryttimopgeykww9.png',
       url: 'http://vitalik.ca'
-    },
-    {
-      name: 'Vlad Zamfir',
-      title: 'Ethereum Research Lead',
-      image: 'https://pbs.twimg.com/profile_images/683736320691298305/jHM6N6FK.png',
-      url: 'https://twitter.com/vladzamfir'
     },
     {
       name: 'Loi Luu',
@@ -59,8 +53,8 @@ export default {
       url: 'https://twitter.com/lrettig'
     },
     {
-      name: 'Raiden Network',
-      title: 'Fast, cheap, scalable token transfers for Ethereum',
+      name: 'Philipp',
+      title: 'Raiden Network',
       image: 'https://cdn-images-1.medium.com/max/1200/1*0TL5ON_7R1LOnmCWHCxdoA.png',
       url: 'https://raiden.network/'
     }
@@ -137,8 +131,8 @@ export default {
     {
       start: '15:30',
       end: '16:00',
-      speaker: 'Vlad Zamfir',
-      title: 'Blockchain Governance'
+      speaker: 'TBD',
+      title: 'TBD'
     },
     {
       start: '16:00',
@@ -160,12 +154,12 @@ export default {
     }
   ],
 
-  transportTitle: 'Transport',
+  transportTitle: 'Travel Information',
 
-  sponsorTitle: 'Sponsor',
-  platinumSponsorTitle: 'Platinum Sponsors',
-  goldSponsorTitle: 'Gold Sponsors',
-  silverSponsorTitle: 'Silver Sponsors',
+  sponsorTitle: 'Sponsors',
+  platinumSponsorTitle: 'Platinum Patron',
+  goldSponsorTitle: 'Gold Patrons',
+  silverSponsorTitle: 'Silver Patrons',
 
   staffTitle: 'Staff'
 }

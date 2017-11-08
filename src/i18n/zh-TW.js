@@ -29,12 +29,6 @@ export default {
       url: 'http://vitalik.ca'
     },
     {
-      name: 'Vlad Zamfir',
-      title: 'Ethereum Research Lead',
-      image: 'https://pbs.twimg.com/profile_images/683736320691298305/jHM6N6FK.png',
-      url: 'https://twitter.com/vladzamfir'
-    },
-    {
       name: 'Loi Luu',
       title: 'Kyber Network CEO',
       image: 'https://www.comp.nus.edu.sg/~loiluu/profile.jpg',
@@ -137,8 +131,8 @@ export default {
     {
       start: '15:30',
       end: '16:00',
-      speaker: 'Vlad Zamfir',
-      title: 'Blockchain Governance'
+      speaker: 'TBD',
+      title: 'TBD'
     },
     {
       start: '16:00',
