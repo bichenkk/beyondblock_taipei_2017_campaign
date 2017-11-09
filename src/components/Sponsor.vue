@@ -19,6 +19,14 @@
         <div class="sponsor__logo">
           <img src="../assets/sponsor_cobinhood.jpg">
         </div>
+        <div class="sponsor__logo">
+          <img src="../assets/sponsor_bitoex.jpg">
+        </div>
+      </div>
+      <div class="sponsor__row">
+        <div class="sponsor__logo">
+          <img src="../assets/sponsor_amis.svg">
+        </div>
       </div>
     </div>
 
