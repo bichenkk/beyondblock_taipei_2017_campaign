@@ -21,6 +21,10 @@
               <hr>
             </li>
             <li class="nav-item">
+              <a @click="toggleNav" class="nav-link" href="#sponsor">{{$t('navLink4')}}</a>
+              <hr>
+            </li>
+            <li class="nav-item">
               <a class="nav-link inline" href="#" @click="changeLang('zh', true)">{{$t('zhMobileLang')}}</a>
               <span class="divider">/</span>
               <a class="nav-link inline" href="#" @click="changeLang('en', true)">{{$t('enMobileLang')}}</a>
@@ -48,6 +52,9 @@
             <a class="nav-link" href="#transport">{{$t('navLink3')}}</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#sponsor">{{$t('navLink4')}}</a>
+          </li>
+          <li class="nav-item">
             <div class="dropdown">
               <a class="dropbtn nav-link" href="#">{{$t('langDropdown')}}</a>
               <div class="dropdown-content">
@@ -63,7 +70,7 @@
     <Speaker id="speaker"/>
     <Session id="session"/>
     <Transport id="transport"/>
-    <Sponsor/>
+    <Sponsor id="sponsor"/>
     <Staff/>
     <Contact/>
   </div>

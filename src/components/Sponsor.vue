@@ -14,18 +14,26 @@
     <div class="sponsor__box">
       <div class="sponsor__row">
         <div class="sponsor__logo">
-          <img src="../assets/sponsor_ifc.jpg">
+          <a href="#" target="_blank">
+            <img src="../assets/sponsor_ifc.jpg">
+          </a>
         </div>
         <div class="sponsor__logo">
-          <img src="../assets/sponsor_cobinhood.jpg">
+          <a href="https://www.cobinhood.com/" target="_blank">
+            <img src="../assets/sponsor_cobinhood.jpg">
+          </a>
         </div>
         <div class="sponsor__logo">
-          <img src="../assets/sponsor_bitoex.jpg">
+          <a href="https://www.bitoex.com/" target="_blank">
+            <img src="../assets/sponsor_bitoex.jpg">
+          </a>
         </div>
       </div>
       <div class="sponsor__row">
         <div class="sponsor__logo">
-          <img src="../assets/sponsor_amis.svg">
+          <a href="http://am.is/" target="_blank">
+            <img src="../assets/sponsor_amis.svg">
+          </a>
         </div>
       </div>
     </div>
