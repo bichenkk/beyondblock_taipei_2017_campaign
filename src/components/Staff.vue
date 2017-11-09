@@ -6,28 +6,15 @@
     </div>
 
     <div class="staff__box">
-      <div class="staff__img">
-        <img src="../assets/staff_juinc.jpg">
-        <span>juinc - 總召</span>
+      <div class="staff__img" v-for="(role, index) in $t('staff')" :key="role.name + index">
+        <img :src="role.img">
+        <a v-if="role.url" :href="role.url" target="_blank">
+          <span>{{role.name}} - {{role.duty}}</span>
+        </a>
+        <a v-else :href="role.url" target="_blank">
+          <span>{{role.name}} - {{role.duty}}</span>
+        </a>
       </div>
-      <div class="staff__img">
-        <img src="../assets/staff_yurenju.jpg">
-        <span>yurenju - 行銷</span>
-      </div>
-      <div class="staff__img">
-        <img src="../assets/staff_ben.jpg">
-        <span>Ben - 網站</span>
-      </div>
-      <div class="staff__img">
-        <img src="../assets/staff_paul.jpg">
-        <span>paul - 場務</span>
-      </div>
-      <div class="staff__img">
-        <img src="../assets/staff_ken.jpg">
-        <span>Ken - 場務</span>
-      </div>
-    </div>
-
     </div>
   </section>
 </template>
@@ -79,6 +66,10 @@ export default {
 
     span:hover {
       opacity: 0.7;
+    }
+
+    a {
+      cursor: pointer;
     }
   }
 }

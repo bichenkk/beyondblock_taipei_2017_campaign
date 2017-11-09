@@ -154,10 +154,6 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
   }
 }
 
-.speaker__box:nth-last-child(1) .cell__title {
-  margin-bottom: 0px;
-}
-
 @media only screen and (max-width: 767px) {
   .speaker__box {
     margin-bottom: 40px;

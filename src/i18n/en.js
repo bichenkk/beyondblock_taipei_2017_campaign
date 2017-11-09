@@ -25,37 +25,37 @@ export default {
     {
       name: 'Vitalik Buterin',
       title: 'Founder and Chief Scientist of Ethereum',
-      image: 'https://crunchbase-production-res.cloudinary.com/image/upload/c_thumb,h_120,w_120,f_jpg,g_faces/v1464855812/k8rbcryttimopgeykww9.png',
+      image: require('../assets/speaker1.jpg'),
       url: 'http://vitalik.ca'
     },
     {
       name: 'Loi Luu',
       title: 'Kyber Network CEO',
-      image: 'http://www.comp.nus.edu.sg/~loiluu/profile.jpg',
+      image: require('../assets/speaker2.jpg'),
       url: 'https://www.comp.nus.edu.sg/%7Eloiluu/'
     },
     {
       name: 'Karl Floersch',
       title: 'Ethereum Researcher',
-      image: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAUiAAAAJDJiMmRjODlkLWU1OTgtNDA4MC05NGE0LTMyMTBmZmZiMWQzNw.jpg',
+      image: require('../assets/speaker3.jpg'),
       url: 'https://karl.tech'
     },
     {
       name: 'Ben Ho',
       title: 'ImToken CEO',
-      image: 'http://img.mp.itc.cn/upload/20170503/2b64b32c730f49e9a2053fd1fa8cfb72_th.jpeg',
+      image: require('../assets/speaker4.jpg'),
       url: 'https://token.im'
     },
     {
       name: 'Lane Rettig',
       title: 'Founder of CryptoNYC',
-      image: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/2/005/05d/08a/2722897.jpg',
+      image: require('../assets/speaker5.jpg'),
       url: 'https://twitter.com/lrettig'
     },
     {
       name: 'Philipp',
       title: 'Raiden Network',
-      image: 'https://cdn-images-1.medium.com/max/1200/1*0TL5ON_7R1LOnmCWHCxdoA.png',
+      image: require('../assets/speaker6.jpg'),
       url: 'https://raiden.network/'
     }
   ],
@@ -161,5 +161,37 @@ export default {
   goldSponsorTitle: 'Gold Sponsor',
   silverSponsorTitle: 'Silver Sponsor',
 
-  staffTitle: 'Staff'
+  staffTitle: 'Staff',
+  staff: [
+    {
+      name: 'juinc',
+      duty: '總召',
+      img: require('../assets/staff_juinc.jpg'),
+      url: null
+    },
+    {
+      name: 'yurenju',
+      duty: '行銷',
+      img: require('../assets/staff_yurenju.jpg'),
+      url: null
+    },
+    {
+      name: '呂峻豪',
+      duty: '網站',
+      img: require('../assets/staff_ben.jpg'),
+      url: null
+    },
+    {
+      name: 'paul',
+      duty: '場務',
+      img: require('../assets/staff_paul.jpg'),
+      url: null
+    },
+    {
+      name: 'Ken',
+      duty: '攝影',
+      img: require('../assets/staff_ken.jpg'),
+      url: null
+    }
+  ]
 }
