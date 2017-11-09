@@ -5,7 +5,8 @@ export default {
 
   navLink1: 'Speakers',
   navLink2: 'Program',
-  navLink3: 'Travel',
+  navLink3: 'Venue',
+  navLink4: 'Sponsors',
 
   zhMobileLang: '繁體中文',
   enMobileLang: 'English',
@@ -154,7 +155,12 @@ export default {
     }
   ],
 
-  transportTitle: 'Travel Info',
+  transportTitle: 'Venue',
+  location: 'Location: ',
+  venueLocation: 'FutureWard – Central',
+  address: 'Address: ',
+  venueAddress: 'B1F., No.343, Changchun Rd., Songshan Dist., Taipei City 105, Taiwan',
+  venueUrl: 'http://futureward.com/central/',
 
   sponsorTitle: 'Sponsors',
   platinumSponsorTitle: 'Platinum Sponsor',

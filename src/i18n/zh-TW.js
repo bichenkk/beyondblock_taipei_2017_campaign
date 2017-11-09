@@ -5,7 +5,8 @@ export default {
 
   navLink1: '講者資訊',
   navLink2: '議程資訊',
-  navLink3: '交通資訊',
+  navLink3: '會場資訊',
+  navLink4: '贊助夥伴',
 
   zhMobileLang: '繁體中文',
   enMobileLang: 'English',
@@ -155,6 +156,11 @@ export default {
   ],
 
   transportTitle: '交通資訊',
+  location: '地點: ',
+  venueLocation: '未來產房 – 南京復興',
+  address: '地址: ',
+  venueAddress: '台北市松山區長春路343號B1',
+  venueUrl: 'http://futureward.com/zh-hant/central/',
 
   sponsorTitle: '贊助夥伴',
   platinumSponsorTitle: 'Platinum Sponsors',
