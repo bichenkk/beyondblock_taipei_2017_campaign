@@ -5,7 +5,7 @@
       <h1 class="title__wording">{{$t('speakerTitle')}}</h1>
     </div>
     <ul class="speaker__list">
-      <li class="speaker__box" v-bind:class="classObject(index)" v-for="(speaker, index) in speakers" v-bind:key="speaker.name + index">
+      <li class="speaker__box" v-bind:class="classObject(index)" v-for="(speaker, index) in $t('speakers')" v-bind:key="speaker.name + index">
         <div class="cell" v-bind:style="directionStyle(index)">
           <div class="cell__icon">
             <a v-bind:href="speaker.url" target="_blank"><img :src="speaker.image" style="width: 100%;"></a>

@@ -5,7 +5,7 @@
       <h1 class="title__wording">{{$t('sessionTitle')}}</h1>
     </div>
 
-    <div class="session__box clearfix row" v-for="(session, index) in sessions" v-bind:key="session.time + session.title">
+    <div class="session__box clearfix row" v-for="(session, index) in $t('sessions')" v-bind:key="session.time + session.title">
       <div class="session__time">
         <h3>
          {{session.start}}<span class="session__until">-</span><span class="session__endtime">{{session.end}}</span>
