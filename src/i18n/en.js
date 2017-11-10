@@ -19,7 +19,7 @@ export default {
 
   newsTitle: 'News',
   newsDescription: 'Follow our Facebook fan page or join our Facebook group to get the latest news!',
-  moreBtn: 'More',
+  moreBtn: 'FB Fan Page',
 
   speakerTitle: 'Speakers',
   speakers: [
@@ -56,13 +56,13 @@ export default {
     {
       name: 'Philipp Seifert',
       title: 'Asia Business Lead at brainbot technologies AG',
-      image: require('../assets/brainbot.jpg'),
+      image: require('../assets/speaker7.jpg'),
       url: 'https://www.linkedin.com/in/philipp-seifert-68bb61b9/'
     },
     {
       name: 'Thomas Greco',
       title: 'OmiseGo Special Advisor',
-      image: require('../assets/omisego.jpg'),
+      image: require('../assets/speaker8.jpg'),
       url: 'https://omisego.network'
     }
   ],
@@ -139,7 +139,7 @@ export default {
       start: '15:30',
       end: '16:00',
       speaker: 'Thomas Greco',
-      title: 'OmiseGo'
+      title: 'The Value of Open Financial Networks (OMG!)'
     },
     {
       start: '16:00',
