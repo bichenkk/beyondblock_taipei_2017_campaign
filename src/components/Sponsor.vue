@@ -14,13 +14,13 @@
     <div class="sponsor__box">
       <div class="sponsor__row">
         <div class="sponsor__logo">
-          <a href="#" target="_blank">
-            <img src="../assets/sponsor_ifc.jpg">
+          <a href="https://www.cobinhood.com/" target="_blank">
+            <img src="../assets/sponsor_cobinhood.jpg">
           </a>
         </div>
         <div class="sponsor__logo">
-          <a href="https://www.cobinhood.com/" target="_blank">
-            <img src="../assets/sponsor_cobinhood.jpg">
+          <a href="https://infinitechain.io" target="_blank">
+            <img src="../assets/sponsor_ifc.jpg">
           </a>
         </div>
         <div class="sponsor__logo">
