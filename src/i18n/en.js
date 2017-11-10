@@ -1,10 +1,10 @@
 export default {
-  bannerTitle: 'BeyondBlock Taipei',
+  bannerTitle: 'BeyondBlock Taipei 2017',
   bannerDate: 'Nov. 25',
   bannerBtn: 'Register Now',
 
   navLink1: 'Speakers',
-  navLink2: 'Program',
+  navLink2: 'Agenda',
   navLink3: 'Venue',
   navLink4: 'Sponsors',
 
@@ -15,10 +15,10 @@ export default {
   enWording: 'English',
 
   meetupTitle: 'Intro',
-  meetupDescription: 'Taipei Ethereum Meetup is an active community focusing on technical issues of Ethereum and other blockchain applications. Every month we have a meetup where volunteer speakers can share.',
+  meetupDescription: 'Taipei Ethereum Meetup is an active community focusing on technical issues of Ethereum and other blockchain applications. Every month we have at least a meetup where voluntary speakers can share their research findings.',
 
   newsTitle: 'News',
-  newsDescription: 'Join our Facebook group to get the latest news',
+  newsDescription: 'Follow our Facebook fan page or join our Facebook group to get the latest news!',
   moreBtn: 'More',
 
   speakerTitle: 'Speakers',
@@ -43,7 +43,7 @@ export default {
     },
     {
       name: 'Ben Ho',
-      title: 'ImToken CEO',
+      title: 'imToken CEO',
       image: require('../assets/speaker4.jpg'),
       url: 'https://token.im'
     },
@@ -54,14 +54,20 @@ export default {
       url: 'https://twitter.com/lrettig'
     },
     {
-      name: 'Philipp',
-      title: 'Raiden Network',
-      image: require('../assets/speaker6.jpg'),
-      url: 'https://raiden.network/'
+      name: 'Philipp Seifert',
+      title: 'Asia Business Lead at brainbot technologies AG',
+      image: require('../assets/brainbot.jpg'),
+      url: 'https://www.linkedin.com/in/philipp-seifert-68bb61b9/'
+    },
+    {
+      name: 'Thomas Greco',
+      title: 'OmiseGo Special Advisor',
+      image: require('../assets/omisego.jpg'),
+      url: 'https://omisego.network'
     }
   ],
 
-  sessionTitle: 'Program',
+  sessionTitle: 'Agenda',
   sessions: [
     {
       start: '09:00',
@@ -90,14 +96,14 @@ export default {
     {
       start: '11:10',
       end: '11:30',
-      speaker: 'Break',
+      speaker: 'Coffee & Networking Break',
       title: null
     },
     {
       start: '11:30',
       end: '12:00',
       speaker: 'Ben Ho',
-      title: 'ImToken 2.0'
+      title: 'imToken 2.0'
     },
     {
       start: '12:00',
@@ -108,8 +114,8 @@ export default {
     {
       start: '13:30',
       end: '14:00',
-      speaker: 'Raiden Network',
-      title: 'Trustlines Network'
+      speaker: 'Philipp Seifert',
+      title: 'Raiden Network'
     },
     {
       start: '14:00',
@@ -132,8 +138,8 @@ export default {
     {
       start: '15:30',
       end: '16:00',
-      speaker: 'TBD',
-      title: 'TBD'
+      speaker: 'Thomas Greco',
+      title: 'OmiseGo'
     },
     {
       start: '16:00',
