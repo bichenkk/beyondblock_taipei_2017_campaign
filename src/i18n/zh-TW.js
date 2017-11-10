@@ -1,5 +1,5 @@
 export default {
-  bannerTitle: 'BeyondBlock Taipei',
+  bannerTitle: 'BeyondBlock Taipei 2017',
   bannerDate: '11月25日',
   bannerBtn: '由此購票',
 
@@ -18,7 +18,7 @@ export default {
   meetupDescription: 'Taipei Ethereum Meetup 是專注在 Ethereum 技術理論、實作與應用的討論社群。每個月有固定實體聚會，由成員自發分享最前沿的研究成果。',
 
   newsTitle: '最新消息',
-  newsDescription: '請關注社團，隨時得知最新消息',
+  newsDescription: '請關注臉書專頁或加入社團，隨時得知最新消息',
   moreBtn: '更多',
 
   speakerTitle: '講者',
@@ -43,7 +43,7 @@ export default {
     },
     {
       name: '何斌',
-      title: 'ImToken CEO',
+      title: 'imToken CEO',
       image: require('../assets/speaker4.jpg'),
       url: 'https://token.im'
     },
@@ -54,10 +54,16 @@ export default {
       url: 'https://twitter.com/lrettig'
     },
     {
-      name: 'Philipp',
-      title: 'Raiden Network',
-      image: require('../assets/speaker6.jpg'),
-      url: 'https://raiden.network/'
+      name: 'Philipp Seifert',
+      title: 'Asia Business Lead at brainbot technologies AG',
+      image: require('../assets/brainbot.jpg'),
+      url: 'https://www.linkedin.com/in/philipp-seifert-68bb61b9/'
+    },
+    {
+      name: 'Thomas Greco',
+      title: 'OmiseGo Special Advisor',
+      image: require('../assets/omisego.jpg'),
+      url: 'https://omisego.network'
     }
   ],
 
@@ -97,7 +103,7 @@ export default {
       start: '11:30',
       end: '12:00',
       speaker: '何斌',
-      title: 'ImToken 2.0'
+      title: 'imToken 2.0'
     },
     {
       start: '12:00',
@@ -108,8 +114,8 @@ export default {
     {
       start: '13:30',
       end: '14:00',
-      speaker: 'Raiden Network',
-      title: 'Trustlines Network'
+      speaker: 'Philipp Seifert',
+      title: 'Raien Network'
     },
     {
       start: '14:00',
@@ -132,8 +138,8 @@ export default {
     {
       start: '15:30',
       end: '16:00',
-      speaker: 'TBD',
-      title: 'TBD'
+      speaker: 'Thomas Greco',
+      title: 'OmiseGo'
     },
     {
       start: '16:00',
