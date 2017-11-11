@@ -14,8 +14,8 @@ export default {
   zhWording: '繁體中文',
   enWording: 'English',
 
-  meetupTitle: 'Intro',
-  meetupDescription: 'Taipei Ethereum Meetup is an active community focusing on technical issues of Ethereum and other blockchain applications. Every month we have at least a meetup where voluntary speakers can share their research findings.',
+  confTitle: 'Intro',
+  confDescription: 'Taipei Ethereum Meetup is an active community focusing on technical issues of Ethereum and other blockchain applications. Every month we have at least a meetup where voluntary speakers can share their research findings.',
 
   newsTitle: 'News',
   newsDescription: 'Follow our Facebook fan page or join our Facebook group to get the latest news!',
