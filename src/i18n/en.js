@@ -30,6 +30,12 @@ export default {
       url: 'http://vitalik.ca'
     },
     {
+      name: 'Vlad Zamfir',
+      title: 'Ethereum Research Lead',
+      image: require('../assets/vlad.jpg'),
+      url: 'https://twitter.com/VladZamfir'
+    },
+    {
       name: 'Loi Luu',
       title: 'Kyber Network CEO',
       image: require('../assets/speaker2.jpg'),
@@ -132,7 +138,7 @@ export default {
     {
       start: '15:00',
       end: '15:30',
-      speaker: 'Break',
+      speaker: 'Coffee & Networking Break',
       title: null
     },
     {
@@ -144,18 +150,24 @@ export default {
     {
       start: '16:00',
       end: '16:30',
+      speaker: 'Vlad Zamfir',
+      title: 'Blockchain Governace'
+    },
+    {
+      start: '16:30',
+      end: '17:00',
       speaker: 'Vitalik Buterin',
       title: 'Ethereum 2.0'
     },
     {
-      start: '16:30',
-      end: '16:50',
+      start: '17:00',
+      end: '17:20',
       speaker: 'Q & A',
       title: null
     },
     {
-      start: '16:50',
-      end: '17:00',
+      start: '17:20',
+      end: '17:30',
       speaker: 'Group Photo',
       title: null
     }
