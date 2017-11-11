@@ -35,6 +35,11 @@
             <img src="../assets/sponsor_amis.svg">
           </a>
         </div>
+        <div class="sponsor__logo">
+          <a href="#" target="_blank">
+            <img src="../assets/sponsor_whale.jpg">
+          </a>
+        </div>
       </div>
     </div>
 

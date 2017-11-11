@@ -151,7 +151,7 @@ export default {
       start: '16:00',
       end: '16:30',
       speaker: 'Vlad Zamfir',
-      title: 'Blockchain Governace'
+      title: 'Blockchain Governance'
     },
     {
       start: '16:30',

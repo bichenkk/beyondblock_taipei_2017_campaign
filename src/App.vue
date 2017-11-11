@@ -66,6 +66,7 @@
         </ul>
       </div>
     </nav>
+    <Conf />
     <Meetup/>
     <Speaker id="speaker"/>
     <Session id="session"/>
@@ -78,6 +79,7 @@
 
 <script>
 import Banner from './components/Banner'
+import Conf from './components/Conf'
 import Meetup from './components/Meetup'
 import Speaker from './components/Speaker'
 import Session from './components/Session'
@@ -90,6 +92,7 @@ export default {
   name: 'app',
   components: {
     Banner,
+    Conf,
     Meetup,
     Speaker,
     Session,
