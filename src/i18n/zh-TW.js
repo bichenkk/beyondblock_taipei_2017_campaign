@@ -124,7 +124,7 @@ export default {
       start: '13:30',
       end: '14:00',
       speaker: 'Philipp Seifert',
-      title: 'Raien Network'
+      title: 'Raiden Network'
     },
     {
       start: '14:00',
