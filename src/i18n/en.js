@@ -15,7 +15,10 @@ export default {
   enWording: 'English',
 
   confTitle: 'Intro',
-  confDescription: 'Taipei Ethereum Meetup is an active community focusing on technical issues of Ethereum and other blockchain applications. Every month we have at least a meetup where voluntary speakers can share their research findings.',
+  confDescription: 'BeyondBlock Taipei is an 1-day conference focusing on blockchain technology.',
+
+  meetupTitle: 'About',
+  meetupDescription: 'Taipei Ethereum Meetup is an active community focusing on technical issues of Ethereum and other blockchain applications. Every month we have at least a meetup where voluntary speakers can share their research findings.',
 
   newsTitle: 'News',
   newsDescription: 'Follow our Facebook fan page or join our Facebook group to get the latest news!',
