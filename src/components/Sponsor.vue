@@ -119,7 +119,7 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
       margin-top: 30px;
       margin-bottom: 30px;
       width: 266px;
-      height: 135px;
+      height: auto;
       /* border: 1px solid #E1DFE2; */
       border-radius: 10px;
 
