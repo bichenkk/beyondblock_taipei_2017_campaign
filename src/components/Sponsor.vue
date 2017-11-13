@@ -4,13 +4,6 @@
       <i class="title__icon"></i>
       <h1 class="title__wording">{{$t('sponsorTitle')}}</h1>
     </div>
-
-    <!--
-    <div class="sponsor__rank">
-      <h3>{{$t('platinumSponsorTitle')}}</h3>
-    </div>
-    -->
-
     <div class="sponsor__box">
       <div class="sponsor__row">
         <div class="sponsor__logo">
@@ -42,32 +35,6 @@
         </div>
       </div>
     </div>
-
-    <!--
-    <div class="sponsor__rank">
-      <h3>{{$t('goldSponsorTitle')}}</h3>
-    </div>
-
-    <div class="sponsor__box">
-      <div class="sponsor__row">
-        <div class="sponsor__logo"></div>
-        <div class="sponsor__logo"></div>
-        <div class="sponsor__logo"></div>
-      </div>
-    </div>
-
-    <div class="sponsor__rank">
-      <h3>{{$t('silverSponsorTitle')}}</h3>
-    </div>
-
-    <div class="sponsor__box">
-      <div class="sponsor__row">
-        <div class="sponsor__logo"></div>
-        <div class="sponsor__logo"></div>
-        <div class="sponsor__logo"></div>
-      </div>
-    </div>
-    -->
   </section>
 </template>
 
