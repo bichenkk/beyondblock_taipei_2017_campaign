@@ -12,11 +12,9 @@
 
     <h1 class="banner__title">{{$t('bannerTitle')}}</h1>
     <h3 class="banner__date">{{$t('bannerDate')}}</h3>
-    <!--
     <div class="banner__participate">
-      <a class="banner__btn"><span>{{$t('bannerBtn')}}</span></a>
+      <a href="https://ethtaipei.kktix.cc/events/bbt2017" class="banner__btn" target="_blank"><span>{{$t('bannerBtn')}}</span></a>
     </div>
-    -->
   </section>
 </template>
 
@@ -93,6 +91,7 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
 
     a:hover {
       background: #43C3A6;
+      text-decoration: none;
     }
 
     span {
