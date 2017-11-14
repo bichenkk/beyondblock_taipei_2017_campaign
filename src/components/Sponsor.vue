@@ -30,7 +30,12 @@
         </div>
         <div class="sponsor__logo">
           <a href="#" target="_blank">
-            <img src="../assets/sponsor_whale.jpg">
+            <img src="../assets/sponsor_whale.png">
+          </a>
+        </div>
+        <div class="sponsor__logo">
+          <a href="#" target="_blank">
+            <img src="../assets/sponsor_ci.png">
           </a>
         </div>
       </div>
