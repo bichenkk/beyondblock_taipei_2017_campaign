@@ -17,7 +17,7 @@ export default {
   confTitle: 'Intro',
   confDescription: 'BeyondBlock Taipei is an 1-day conference focusing on blockchain technology.',
 
-  meetupTitle: 'About',
+  meetupTitle: 'About Us',
   meetupDescription: 'Taipei Ethereum Meetup is an active community focusing on technical issues of Ethereum and other blockchain applications. Every month we have at least a meetup where voluntary speakers can share their research findings.',
 
   newsTitle: 'News',
@@ -81,14 +81,14 @@ export default {
     {
       start: '09:00',
       end: '09:30',
-      speaker: 'Registration',
-      title: null
+      speaker: null,
+      title: 'Registration'
     },
     {
       start: '09:30',
       end: '09:40',
-      speaker: 'Opening',
-      title: null
+      speaker: null,
+      title: 'Opening'
     },
     {
       start: '09:40',
@@ -105,8 +105,8 @@ export default {
     {
       start: '11:10',
       end: '11:30',
-      speaker: 'Coffee & Networking Break',
-      title: null
+      speaker: null,
+      title: 'Coffee & Networking Break'
     },
     {
       start: '11:30',
@@ -116,9 +116,15 @@ export default {
     },
     {
       start: '12:00',
+      end: '12:20',
+      speaker: null,
+      title: 'Our Sponsors'
+    },
+    {
+      start: '12:20',
       end: '13:30',
-      speaker: 'Lunch',
-      title: null
+      speaker: null,
+      title: 'Lunch'
     },
     {
       start: '13:30',
@@ -135,14 +141,14 @@ export default {
     {
       start: '14:30',
       end: '15:00',
-      speaker: 'Our Sponsors',
-      title: null
+      speaker: null,
+      title: 'Our Sponsors'
     },
     {
       start: '15:00',
       end: '15:30',
-      speaker: 'Coffee & Networking Break',
-      title: null
+      speaker: null,
+      title: 'Coffee & Networking Break'
     },
     {
       start: '15:30',
@@ -165,14 +171,14 @@ export default {
     {
       start: '17:00',
       end: '17:20',
-      speaker: 'Q & A',
-      title: null
+      speaker: null,
+      title: 'Q & A'
     },
     {
       start: '17:20',
       end: '17:30',
-      speaker: 'Group Photo',
-      title: null
+      speaker: null,
+      title: 'Group Photo'
     }
   ],
 
