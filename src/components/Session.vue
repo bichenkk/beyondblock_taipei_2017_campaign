@@ -18,14 +18,14 @@
         <i class="session__dot"></i>
       </div>
       <div class="session__body">
-        <div v-if="session.title" class="session__speaker">
-          <h3>{{session.speaker}}</h3>
+        <div v-if="session.speaker" class="session__speaker">
+          <h3>{{session.title}}</h3>
         </div>
         <div v-else class="session__speaker--none">
-          <h3>{{session.speaker}}</h3>
+          <h3>{{session.title}}</h3>
         </div>
         <div class="session__title">
-          {{session.title}}
+          {{session.speaker}}
         </div>
       </div>
     </div>
@@ -117,7 +117,7 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
   }
   &__title {
     font-family: $font-family;
-    font-size: 24px;
+    font-size: 20px;
     color: #4A4A4A;
     letter-spacing: 0;
   }
