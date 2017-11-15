@@ -66,7 +66,7 @@ export default {
       name: 'Philipp Seifert',
       title: 'Asia Business Lead at brainbot technologies AG',
       image: require('../assets/speaker7.jpg'),
-      url: 'https://www.linkedin.com/in/philipp-seifert-68bb61b9/'
+      url: 'https://raiden.network/'
     },
     {
       name: 'Thomas Greco',
