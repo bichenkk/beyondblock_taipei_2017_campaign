@@ -74,7 +74,7 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
     left: 50%;
     margin: 0;
     position: absolute;
-    top: 420px;
+    top: 515px;
     transform: translate(-50%, -50%);
 
     a {
@@ -112,7 +112,7 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
     size: 100%;
     repeat: no-repeat;
   }
-  height: 500px;
+  height: 550px;
   &--1 {
     background-image: url(../assets/banner5.png);
   }
