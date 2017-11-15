@@ -6,12 +6,11 @@
       :timing="'linear'" :fade="true"
       :autoplay="true" :pauseOnHover="false">
       <div class="slide slide--1"></div>
-      <div class="slide slide--2"></div>
-      <div class="slide slide--3"></div>
     </agile>
-
+    <!--
     <h1 class="banner__title">{{$t('bannerTitle')}}</h1>
     <h3 class="banner__date">{{$t('bannerDate')}}</h3>
+    -->
     <div class="banner__participate">
       <a href="https://ethtaipei.kktix.cc/events/bbt2017" class="banner__btn" target="_blank"><span>{{$t('bannerBtn')}}</span></a>
     </div>
@@ -30,6 +29,7 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
 .banner {
   width: 100%;
   background: #9B9B9B;
+  padding: 5px 5px 5px 5px;
   &__mask:after {
     position: absolute;
     width: 100%;
@@ -38,9 +38,9 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
     left: 0;
     z-index: 0;
     content: '';
-    background: linear-gradient(to right top, rgba(132, 233, 167, 0.8), rgba(147, 210, 240, 0.7));
+    /* background: linear-gradient(to right top, rgba(132, 233, 167, 0.8), rgba(147, 210, 240, 0.7)); */
   }
-  
+
   &__title {
     text-align: center;
     width: 100%;
@@ -109,17 +109,12 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
 .slide {
   background: {
     position: center;
-    size: cover;
+    size: 100%;
+    repeat: no-repeat;
   }
-  height: 557px;
+  height: 500px;
   &--1 {
-    background-image: url(../assets/banner1.jpg);
-  }
-  &--2 {
-    background-image: url(../assets/banner2.jpg);
-  }
-  &--3 {
-    background-image: url(../assets/banner3.jpg);
+    background-image: url(../assets/banner5.png);
   }
 }
 
