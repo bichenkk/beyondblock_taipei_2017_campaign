@@ -28,7 +28,10 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
 
 .banner {
   width: 100%;
-  background: #9B9B9B;
+  background: #424242; /* Old browsers */
+  background: -moz-linear-gradient(top, #424242 50%, #b6b6b6 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #424242 50%,#b6b6b6 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #424242 50%,#b6b6b6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   padding: 5px 5px 5px 5px;
   &__mask:after {
     position: absolute;
@@ -109,7 +112,7 @@ $font-family: 'Open+Sans', Microsoft JhengHei, 'Lato', sans-serif, Helvetica, Ar
 .slide {
   background: {
     position: center;
-    size: 100%;
+    size: 80%;
     repeat: no-repeat;
   }
   height: 550px;
